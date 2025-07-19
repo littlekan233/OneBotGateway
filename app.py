@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 app = Flask(__name__)
 
 @app.route('/')
-def hello_world():  # put application's code here
+def hello_world():
     return 'Hello World!'
 
 class InterceptHandler(logging.Handler):
